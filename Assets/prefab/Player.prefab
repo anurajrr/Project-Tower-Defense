@@ -148,4 +148,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  Waittime: 0
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  Waittime: 1
