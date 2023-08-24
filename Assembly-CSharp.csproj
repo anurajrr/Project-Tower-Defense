@@ -36,17 +36,18 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\TowerDefence_Vsquad\Scripts\EnemyBullet.cs" />
+     <Compile Include="Assets\TowerDefence_Vsquad\Scripts\EnemyHp.cs" />
      <Compile Include="Assets\_Scripts\EnemyMovement.cs" />
-     <Compile Include="Assets\_Scripts\Waypoint.cs" />
-     <Compile Include="Assets\_Scripts\CoordinatesLabel.cs" />
+     <Compile Include="Assets\TowerDefence_Vsquad\Scripts\TowerBullet.cs" />
+     <Compile Include="Assets\TowerDefence_Vsquad\Scripts\TowerHP.cs" />
+     <Compile Include="Assets\TowerDefence_Vsquad\Scripts\WaveSpawn.cs" />
      <Compile Include="Assets\TowerDefence_Vsquad\Scripts\TowerTrigger.cs" />
      <Compile Include="Assets\TowerDefence_Vsquad\Scripts\Tower.cs" />
-     <Compile Include="Assets\TowerDefence_Vsquad\Scripts\EnemyBullet.cs" />
-     <Compile Include="Assets\TowerDefence_Vsquad\Scripts\TowerBullet.cs" />
+     <Compile Include="Assets\_Scripts\Waypoint.cs" />
+     <Compile Include="Assets\_Scripts\CoordinatesLabel.cs" />
      <Compile Include="Assets\TowerDefence_Vsquad\Scripts\Enemy.cs" />
-     <Compile Include="Assets\TowerDefence_Vsquad\Scripts\TowerHP.cs" />
-     <Compile Include="Assets\TowerDefence_Vsquad\Scripts\EnemyHp.cs" />
-     <Compile Include="Assets\TowerDefence_Vsquad\Scripts\WaveSpawn.cs" />
+     <Compile Include="Assets\_Scripts\Towers.cs" />
      <None Include="Assets\z_ETC\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TowerDefence_Vsquad\INFO\Info.txt" />
      <None Include="Assets\z_ETC\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
