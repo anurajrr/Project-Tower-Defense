@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5360006435995548144}
   - component: {fileID: 4245628489922391828}
   m_Layer: 0
-  m_Name: HM_cannon_pivot2
+  m_Name: canon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -95,7 +95,7 @@ GameObject:
   - component: {fileID: 8741683791634739851}
   - component: {fileID: 3930143172529042604}
   m_Layer: 0
-  m_Name: polySurface4
+  m_Name: Tower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -178,7 +178,7 @@ GameObject:
   - component: {fileID: 4607860376759002577}
   - component: {fileID: 2062947195952605246}
   m_Layer: 0
-  m_Name: HM_cannon_bullet1
+  m_Name: canon ball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
