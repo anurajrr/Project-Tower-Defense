@@ -1151,6 +1151,8 @@ GameObject:
   m_Component:
   - component: {fileID: 5825810075468542959}
   - component: {fileID: 5825810075468542958}
+  - component: {fileID: 988816998}
+  - component: {fileID: 85151646542944899}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -1198,4 +1200,32 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  enemySpeed: 1
+  enemySpeed: 0.49
+--- !u!136 &988816998
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5825810075468542956}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 1.2
+  m_Height: 6
+  m_Direction: 1
+  m_Center: {x: 0, y: 1, z: 0.5}
+--- !u!114 &85151646542944899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5825810075468542956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 967efb80b0a056c4d8f00f0df9951349, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxhealth: 5
+  currenthealth: 0

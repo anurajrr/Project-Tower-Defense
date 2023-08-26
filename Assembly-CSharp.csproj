@@ -40,6 +40,7 @@
      <Compile Include="Assets\TowerDefence_Vsquad\Scripts\EnemyHp.cs" />
      <Compile Include="Assets\_Scripts\EnemyMovement.cs" />
      <Compile Include="Assets\TowerDefence_Vsquad\Scripts\TowerBullet.cs" />
+     <Compile Include="Assets\_Scripts\EnemyHealth.cs" />
      <Compile Include="Assets\TowerDefence_Vsquad\Scripts\TowerHP.cs" />
      <Compile Include="Assets\TowerDefence_Vsquad\Scripts\WaveSpawn.cs" />
      <Compile Include="Assets\TowerDefence_Vsquad\Scripts\TowerTrigger.cs" />
