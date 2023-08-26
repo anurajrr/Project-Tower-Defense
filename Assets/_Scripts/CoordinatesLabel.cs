@@ -7,11 +7,15 @@ using System;
 [ExecuteAlways]
 public class CoordinatesLabel : MonoBehaviour
 {   
+    [SerializeField] Color defaultcolor = Color.cyan;
+    [SerializeField] Color blockedcolor = Color.gray;
     TextMeshPro cordinatetext;
     Vector2Int cordinatepos = new Vector2Int();
+    Waypoint waypoint;
      void Awake() 
     {
         cordinatetext = GetComponent<TextMeshPro>();
+        waypoint = GetComponentInParent<Waypoint>();
         Displaycordinates();
     }
 
@@ -22,6 +26,19 @@ public class CoordinatesLabel : MonoBehaviour
         {
             Displaycordinates();
             UpdateObjectCordinatesName();
+        }
+            ColorCordinates();
+    }
+
+    private void ColorCordinates()
+    {
+        if(waypoint.IsPlacable)
+        {
+            cordinatetext.color = defaultcolor;
+        }
+        else
+        {
+            cordinatetext.color = blockedcolor;
         }
     }
 
